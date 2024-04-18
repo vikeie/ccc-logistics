@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Webpack</title>
+  </head>
+  <body>
+
+      <!--### Header Starts Here ####-->
+
+      <header>
+        <div class="top p-2"></div>
+        <div id="navBar" class="container-fluid ">
+          <div class="container-xl">
+            <div class="row py-1 py-lg-3 p-3">
+              <div class="col-lg-3 p-2">
+                 <img class="max-230 mt-2" src="images/organic-agri-low-resolution-logo-color-on-transparent-background.png" alt="">
+                 <a  data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none ps-3"><i class="bi  fs-1 cp bi-list"></i></a>
+              </div>
+              <div id="menu" class="col-lg-7 d-none d-lg-block d-flex justify-content-center">
+                <ul >
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="index.html">Home</a></li>
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="about.html">About Us</a></li>
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="products.html">Products</a></li>
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="services.html">Services</a></li>
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="blog.html">Blog</a></li>
+                  <li class="float-md-start p-3"><a class="fw-bolder fs-6" href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 d-none d-lg-block p-2 text-end">
+                  <button class="btn px-4 rounded-0 fw-bolder btn-outline-primary"> <i class="bi bi-basket"></i> Cart (1)</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-tab container-fluid">
+        <div class="container-xl">
+          <div class="row justify-content-center py-4">
+            <ul class="max-auto d-flex width-fit">
+              <li class="float-start p-3">Home <i class="bi ps-4 pt-1 bi-arrow-right"></i></li>
+              <li class="float-start text-primary p-3">About US</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content container-fluid">
+          <div class="container-xl px-0 px-md-5">
+            <div class="row mx-0 mb-5 ">
+              <div class="col-md-7 text-center mx-auto">
+                <h1 class="fw-bolder">About Agri</h1>
+                <p>Praesent sodales bibendum urna vel aliquam. In pharetra lorem cursus nunc dignissim, nec faucibus lacus laoreet. Sed molestie, velit nec tempor malesuada, lectus nisl euismod magna</p>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-md-12 mx-auto">
+                <img src="images/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-fluid big-padding pt-0 category">
+        <div class="container-xl">
+            <div class="row section-title">
+              <h4 class="text-start fs-5 text-primary fw-bolder">About Company</h4>
+              <h2 class="text-start">Pellentesque semper, nisi vitae <br> pharetra eleifend, erat mi semper orci</h2>
+            </div>
+            <div class="row big-padding py-0">
+              <div class="about mb-4">
+                <p class="text-justify">Praesent sodales bibendum urna vel aliquam. In pharetra lorem cursus nunc dignissim, nec faucibus lacus laoreet. Sed molestie, velit nec tempor malesuada, lectus nisl euismod magna, non facilisis libero erat at nisi. Aenean sed malesuada mauris. Nam dictum eleifend ante. In tincidunt magna a lobortis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis libero odio, a vehicula lectus lacinia quis. Aenean sit amet lacus vel odio pulvinar consequat. Curabitur pretium metus eget neque ullamcorper ornare. Aliquam ultricies neque justo, in egestas libero tristique at.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="images/about-1.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <img src="images/about-2.jpg" alt="">
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!--### Team Starts Here ####-->
+
+
+      <section class="team bg-gray big-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="section-title">
+                          <h2>Meet our team</h2>
+                          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="team-main-box bg-white shadow-md text-center">
+                          <img src="images/team/3.jpg">
+                          <div class="team-content-box">
+                              <ul>
+                                  <li><i class="fab fa-facebook-f"></i></li>
+                                  <li><i class="fab fa-twitter"></i></li>
+                                  <li><i class="fab fa-instagram"></i></li>
+                              </ul>
+                              <h3 class="fw-bolder mt-3 fs-4 mb-0">Jesica Albert</h3>
+                              <p class="pb-3">Expert Farmer</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="team-main-box bg-white shadow-md text-center">
+                          <img src="images/team/2.jpg">
+                          <div class="team-content-box">
+                              <ul>
+                                  <li><i class="fab fa-facebook-f"></i></li>
+                                  <li><i class="fab fa-twitter"></i></li>
+                                  <li><i class="fab fa-instagram"></i></li>
+                              </ul>
+                              <h3 class="fw-bolder mt-3 fs-4 mb-0">Williams</h3>
+                              <p class="pb-3">Organic Farmr</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="team-main-box bg-white shadow-md text-center">
+                          <img src="images/team/4.jpg">
+                          <div class="team-content-box">
+                              <ul>
+                                  <li><i class="fab fa-facebook-f"></i></li>
+                                  <li><i class="fab fa-twitter"></i></li>
+                                  <li><i class="fab fa-instagram"></i></li>
+                              </ul>
+                             <h3 class="fw-bolder mt-3 fs-4 mb-0">James Hentry</h3>
+                              <p class="pb-3">Soil Expert</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                      <div class="team-main-box bg-white shadow-md text-center">
+                          <img src="images/team/1.jpg">
+                          <div class="team-content-box">
+                              <ul>
+                                  <li><i class="fab fa-facebook-f"></i></li>
+                                  <li><i class="fab fa-twitter"></i></li>
+                                  <li><i class="fab fa-instagram"></i></li>
+                              </ul>
+                              <h3 class="fw-bolder mt-3 fs-4 mb-0">Anita James</h3>
+                              <p class="pb-3">Expert Farmer</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <footer id="contact" class="bg-dark pt-0 text-white big-padding pb-4">
+        <div class="container-xl max-1200">
+            <div class="foot-info row m-0">
+                <div class="col-md-4 bg-primary p-4 bbg">
+                    <div class="row">
+                        <div class="col-2 text-center align-self-center text-primary">
+                            <i class="bi fs-2 text-white bi-geo-alt"></i>
+                        </div>
+                        <div class="col-10 ps-0">
+                            <h5 class="text-light fw-bolder fs-5 mb-0">Coimbatore, Tamilnadu</h5>
+                            <p class="fs-6 mb-0">1010 Grand Avenue</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 dgbk p-4">
+                    <div class="row">
+                        <div class="col-2 text-center align-self-center text-primary">
+                            <i class="bi fs-2 text-white bi-telephone-forward"></i>
+                        </div>
+                        <div class="col-10 ps-0">
+                            <h5 class="text-light fw-bolder fs-5 mb-0">Contact Information</h5>
+                            <p class="fs-6 mb-0">MOBILE: +91 6380300375</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-primary bbr p-4">
+                    <div class="row">
+                        <div class="col-2 text-center align-self-center text-primary">
+                            <i class="bi fs-2 text-white bi-envelope-plus"></i>
+                        </div>
+                        <div class="col-10 ps-0">
+                            <h5 class="text-light fw-bolder fs-5 mb-0">Email Address</h5>
+                            <p class="fs-6 mb-0">principaloptometry@ppg.edu.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aboutcol bg-gray fs-7 bg-dark shadow-lg p-5">
+                        
+                        <p class="mb-2 text-justify">Lorem ipsum dolor  sed do eiusmod tempor incididunt sit amet,  sed do eiusmod tempor incididunt consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                        <p class="mb-2 text-justify">Rerit libero pellentesque libero interdum, id mattis felis dictum. Praesent eget lacus tempor justo efficitur malesuada. Cras ut suscipit nisi.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6 pt-5">
+                            <h4 class="fs-5 fw-bolder text-white">Useful Links</h4>
+                            <ul class="row">
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Home</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> About Us</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Services</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Blog</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Contact Us</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Features</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Privacy Policy</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Refund Policy</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Gallery</a></li>
+                                <li class="float-start col-md-6 p-2"><a class="text-white fw-bolder" href=""><i class="bi text-primary bi-chevron-right"></i> Albums</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6  pt-5">
+                            <h4 class="fs-5 fw-bolder text-white">Useful Links</h4>
+
+                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, vehicula eget eros. </p>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control mb-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-primary" id="basic-addon2"><i class="bi text-white bi-send"></i></span>
+                                </div>
+                            </div>
+
+                        
+                            <ul class="text-white pt-1 float-end">
+                                <li class="float-start fs-6 p-3 py-2"><i class="bi bi-facebook"></i></li>
+                                <li class="float-start fs-6 p-3 py-2"><i class="bi bi-twitter"></i></li>
+                                <li class="float-start fs-6 p-3 py-2"><i class="bi bi-instagram"></i></li>
+                                <li class="float-start fs-6 p-3 py-2"><i class="bi bi-linkedin"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy p-4">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="https://www.smarteyeapps.com/">2022 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps.com</a>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="images/payments.png" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+       <script src="./main.js"></script>
+  </body>
+</html>
